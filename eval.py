@@ -3,8 +3,6 @@ import argparse
 
 import carb
 import torch as th
-#from tasks.env_yolo import AlphaBaseEnv
-from tasks.env_gt_mapless_nav import AlphaBaseEnv
 from stable_baselines3 import SAC
 from stable_baselines3.common.callbacks import CheckpointCallback
 
