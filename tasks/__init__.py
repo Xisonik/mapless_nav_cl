@@ -1,4 +1,4 @@
-from tasks.env_with_graph import AlphaBaseEnv
+from tasks.env_yolo import AlphaBaseEnv
 from gymnasium.envs.registration import register
 print("register")
 
